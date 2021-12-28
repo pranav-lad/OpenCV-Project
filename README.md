@@ -1,10 +1,12 @@
-# OpenCV-Projects
-Credit : 
+# OpenCV-Projects 👁 
+USING COMPUTER VISION
+
+© Credit  : 
 These are Python Educational Projects Made by :
-## Pranav Lad 
-## Om Kinge
-## Mihir Katariya
-## Saurbh Pardhi
+## 🧑 Pranav Lad 
+## 🧑 Om Kinge
+## 🧑 Mihir Katariya
+## 🧑 Saurbh Pardhi
 We are students of Pimpri Chinchwad College of Engineering Pune.
 
 To run the code :
