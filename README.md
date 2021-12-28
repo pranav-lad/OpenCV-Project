@@ -2,7 +2,7 @@
 USING COMPUTER VISION
 
 © Credit  : 
-These are Python Educational Projects Made by :
+These are Python Educational Projects for **First Year** Made by :
 ## 🧑 Pranav Lad 
 pranav-lad
 ## 🧑 Om Kinge
