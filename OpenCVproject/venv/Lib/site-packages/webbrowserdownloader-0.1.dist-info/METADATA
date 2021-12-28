@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: webbrowserdownloader
+Version: 0.1
+Summary: webbrowserdownloader is a wrapper for selenium browser
+Home-page: http://github.com/devStarkes/webbrowserdownloader
+Author: Starkes org.
+Author-email: devStarkes@gmail.com
+License: MIT
+Keywords: webbrowserdownloader selenium browser downloder web extraction parsing scraping mining
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Browsers
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Requires-Dist: validators
+Requires-Dist: selenium
+Requires-Dist: pyvirtualdisplay
+Requires-Dist: pillow
+
+# Instalatiom
+```sh
+pip install webbrowserdownloader
+```
+# Downloader
+### Basic functional
+```python
+from webbrowserdownloader import Browser
+browser = Browser()
+page_content = browser.get_page('https://www.google.com/')
+len(page_content)
+```
+### Proxies usage
+```python
+from webbrowserdownloader import Browser
+browser = Browser(proxy_string='157.152.145.103:3128')
+page_content = browser.get_page('https://www.google.com/')
+````
+# License
+MIT
+
+

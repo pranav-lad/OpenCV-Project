@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+VERSION
+setup.cfg
+setup.py
+meeting.egg-info/PKG-INFO
+meeting.egg-info/SOURCES.txt
+meeting.egg-info/dependency_links.txt
+meeting.egg-info/not-zip-safe
+meeting.egg-info/requires.txt
+meeting.egg-info/top_level.txt
+meeting/common/__init__.py
+meeting/common/managers.py
+meeting/common/models.py
+meeting/utils/__init__.py
+meeting/utils/isnull_filter.py
+tests/test_common_models.py
