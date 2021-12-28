@@ -4,6 +4,7 @@ USING COMPUTER VISION
 © Credit  : 
 These are Python Educational Projects Made by :
 ## 🧑 Pranav Lad 
+pranav-lad
 ## 🧑 Om Kinge
 ## 🧑 Mihir Katariya
 ## 🧑 Saurbh Pardhi
