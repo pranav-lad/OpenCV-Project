@@ -1,3 +1,5 @@
+# Pranav Rajendra Lad - Driver Drowsiness Detection System
+
 # Importing OpenCV Library for basic image processing functions
 import cv2
 # Numpy for array related functions
@@ -9,14 +11,14 @@ from imutils import face_utils
 import pygame
 
 pygame.mixer.init()
-pygame.mixer.music.load('Resources/Jump1 (1).wav')
+pygame.mixer.music.load('C:/Users/hp/PycharmProjects/pythonProject/venv/beep.mp3')
 
 # Initializing the camera and taking the instance
 cap = cv2.VideoCapture(0)
 
 # Initializing the face detector and landmark detector
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+predictor = dlib.shape_predictor("C:/Users/hp/PycharmProjects/pythonProject/venv/shape_predictor_68_face_landmarks.dat")
 
 # status marking for current state
 sleep = 0
@@ -76,7 +78,7 @@ while True:
             active = 0
             if (sleep > 6):
                 pygame.mixer.music.play(-1)
-                status = "SLEEPING         FY30I939"#7
+                status = "SLEEPING         "#7
                 color = (255, 0, 0)
 
 
@@ -86,7 +88,7 @@ while True:
             drowsy += 1
             if (drowsy > 6):
                 pygame.mixer.music.stop()
-                status = "DROWSY!!          FY30I939"#8
+                status = "DROWSY!!          "#8
                 color = (0, 0, 255)
 
         else:
@@ -95,7 +97,7 @@ while True:
             active += 1
             if (active > 6):
                 pygame.mixer.music.stop()
-                status = " ACTIVE            FY30I939"#8
+                status = " ACTIVE            "#8
                 color = (0, 200, 0)
         stat = "Facelandmarks"
         cv2.putText(frame, status, (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 1.4, color, 3)
