@@ -1,5 +1,3 @@
-# Pranav Rajendra Lad - Driver Drowsiness Detection System
-
 # Importing OpenCV Library for basic image processing functions
 import cv2
 # Numpy for array related functions
@@ -32,7 +30,7 @@ def compute(ptA, ptB):
     dist = np.linalg.norm(ptA - ptB)
     return dist
 
-
+#Euclidean Eye Aspect Ratio
 def blinked(a, b, c, d, e, f):
     up = compute(b, d) + compute(c, e)
     down = compute(a, f)
